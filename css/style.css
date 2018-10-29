@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    background-color: rgb(244, 240, 241);
+}
+
+.rating-container {
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.rating,
+.hidden {
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+span.rating__icon {
+    cursor: pointer;
+}
+
+.rating__icon--hovered,
+.rating__icon--selected {
+    color: rgb(45, 196, 162);
+}
